@@ -1,3 +1,5 @@
+import "antd/dist/reset.css"
+import {ConfigProvider} from "antd"
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

@@ -1,0 +1,11 @@
+.profile-pic {
+  position: relative;
+}
+.profile-pic::after {
+  content: " ";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  border: 0.2rem solid rgb(243, 244, 246);
+  border-radius: 50%;
+}/*# sourceMappingURL=main.css.map */

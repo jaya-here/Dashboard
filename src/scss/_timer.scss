@@ -1,0 +1,13 @@
+.timer {
+    width: 60%;
+    background-color: $color-pale-blue;
+    border-right:1px solid $color-bold-blue;
+    &-types {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem;
+        color: $color-bold-blue;
+        background-color: $color-white;
+    }
+}
