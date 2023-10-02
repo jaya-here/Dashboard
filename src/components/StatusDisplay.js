@@ -14,7 +14,7 @@ function StatusDisplay(props) {
   }
   else if (props.message ==='pending')
   {
-    bgcolor = 'bg-orange-500'
+    bgcolor = 'bg'+'-orange'+'-500'
     status = 'Pending'
   }
   else 
@@ -22,6 +22,8 @@ function StatusDisplay(props) {
     bgcolor = 'bg-red-500'
     status = 'Failed'
   }
+
+  const value = '2/3';
 
   console.log("Status", status)
   return (
